@@ -1,0 +1,16 @@
+
+<p>Se ve</p>
+<button (click)="getLocationC()">ClickMe</button>
+<p>{{position.lat}}</p>
+<p>{{position.lon}}</p>
+
+
+<video src="" #video></video>
+<button (click)="startRecord(video, stop)">Start video</button>
+
+<button #stop>Stop</button>
+
+<audio src="" #audio></audio>
+<button #audioRecord (click)="startAudio(audio, stopRecord)">Record Audio</button>
+<button #stopRecord >Stop Audio</button>
+    
